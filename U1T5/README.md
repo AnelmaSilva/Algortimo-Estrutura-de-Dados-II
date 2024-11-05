@@ -50,9 +50,15 @@ A partir das métricas de centralidade e da análise multivariada, sugerir os ba
 - Análise Multivariada: PCA (Análise de Componentes Principais) para redução de dimensionalidade e análise de correlação entre diferentes métricas de centralidade.
   
 ## Resultados 
-- Mapas e visualizações: Imagens das redes urbanas destacando as métricas de centralidade de cada bairro e as áreas de maior conectividade.
-- Distribuições de graus: Gráficos mostrando a CDF e PDF dos graus dos nós para compreender a estrutura da rede.
-- Relatório de análise multivariada: Insights sobre as interações entre as diferentes métricas de centralidade e como elas podem ser usadas para avaliar a mobilidade.
+- - Grafo do bairro de Candelária
+  - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U1T4/Lagoa_Nova.png"  width="600" height="700"/>
+- - Grafo de Candelária com ruas para bike
+  - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U1T4/Lagoa_Nova.png"  width="600" height="700"/>
+- - Grafo da métrica Degree e Closeness
+  - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U1T4/Lagoa_Nova.png"  width="600" height="700"/>
+  - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U1T4/Lagoa_Nova.png"  width="600" height="700"/>
   
+- - Análise Multivariada
+  - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U1T4/Lagoa_Nova.png"  width="600" height="700"/>
 ## Conclusão
 A análise de redes complexas aplicada à mobilidade urbana no entorno da UFRN permitirá uma avaliação mais detalhada da conectividade entre os bairros e ajudará na escolha dos locais mais estratégicos para a implementação de dock-stations de bicicletas. A utilização das métricas de centralidade, juntamente com a análise das distribuições de graus e a análise multivariada, proporcionará uma solução robusta e fundamentada para melhorar a mobilidade sustentável em Natal.
