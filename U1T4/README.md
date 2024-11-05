@@ -1,10 +1,10 @@
 Trabalho 4 - UNIDADE 1
 
-#Análise de Rede do Bairro da Lagoa Nova - Natal/RN com OSMnx 🛜
+# Análise de Rede do Bairro da Lagoa Nova - Natal/RN com OSMnx 🛜
 
 Este projeto tem como objetivo explorar as capacidades da biblioteca OSMnx para analisar a rede viária do bairro da Lagoa Nova, em Natal/RN. Através da implementação de diferentes métricas de rede, busca-se responder a perguntas relevantes sobre a estrutura e o funcionamento da infraestrutura viária local.
 
-#Métricas Utilizadas
+# Métricas Utilizadas
 
 As seguintes métricas foram escolhidas para a análise da rede:
 
@@ -15,7 +15,7 @@ As seguintes métricas foram escolhidas para a análise da rede:
 *Number Connected Components*: Contabiliza o número total de componentes conectados.
 
 
-#Perguntas e Resultados 🙋🏽‍♂️
+# Perguntas e Resultados 🙋🏽‍♂️
 
 - Qual é a eficiência de comunicação na rede?
 
@@ -29,14 +29,18 @@ O Diameter of Network nos informa qual é a maior distância entre quaisquer doi
 
 O número de connected components revela quantas partes distintas existem na rede que não estão interconectadas. Isso pode indicar a fragmentação da rede ou a presença de grupos isolados.
 
-#Implementação 👩🏽‍💻
+# Implementação 👩🏽‍💻
 
 O código completo da análise está disponível no notebook [U1T4.ipynb]. O notebook utiliza a biblioteca OSMnx para obter os dados da rede viária e realizar os cálculos das métricas.
 
+## Imagens da rede do bairro de Lagoa Nova:
+<img src="https://github.com/julianessantos/AED-II/blob/main/Unidade%201/U1T5/Imagens/CentralidadeDeGrau.png" alt="Centralidade de Grau" width="600" height="700"/>
+## Histograma da rede:
+<img src="https://github.com/julianessantos/AED-II/blob/main/Unidade%201/U1T5/Imagens/CentralidadeDeGrau.png" alt="Centralidade de Grau" width="600" height="700"/>
 #Vídeo Explicativo
 
 Um vídeo detalhado explicando o processo de análise e os resultados obtidos está disponível em [link do vídeo].
 
-#Conclusão
+# Conclusão
 
 A análise da rede viária do bairro da Lagoa Nova utilizando as métricas do OSMnx permitiu obter insights valiosos sobre a estrutura e o funcionamento da infraestrutura viária local. Os resultados obtidos podem ser utilizados para diversas aplicações, como planejamento urbano, análise de tráfego e desenvolvimento de aplicativos de navegação.
