@@ -1,6 +1,6 @@
 Trabalho 4 - UNIDADE 1
 
-Análise de Rede do Bairro da Lagoa Nova - Natal/RN com OSMnx
+Análise de Rede do Bairro da Lagoa Nova - Natal/RN com OSMnx 🛜
 
 Este projeto tem como objetivo explorar as capacidades da biblioteca OSMnx para analisar a rede viária do bairro da Lagoa Nova, em Natal/RN. Através da implementação de diferentes métricas de rede, busca-se responder a perguntas relevantes sobre a estrutura e o funcionamento da infraestrutura viária local.
 
@@ -9,23 +9,29 @@ Métricas Utilizadas
 As seguintes métricas foram escolhidas para a análise da rede:
 
 Average Shortest Path Length: Representa a distância média entre todos os pares de nós na rede.
+
 Diameter of Network: Corresponde ao maior caminho mais curto entre qualquer par de nós na rede.
+
 Number Connected Components: Contabiliza o número total de componentes conectados.
 
 
-Perguntas e Resultados
+Perguntas e Resultados 🙋🏽‍♂️
 
-[Insira aqui as perguntas que você elaborou e as respectivas respostas, acompanhadas de gráficos e tabelas.]
+Qual é a eficiência de comunicação na rede?
 
-Exemplo de pergunta e resultado:
+Analisando o Average Shortest Path Length, podemos determinar quão rapidamente os nós podem se comunicar entre si. Um valor menor indica uma comunicação mais eficiente.
 
-Pergunta: Qual é a distância média entre dois pontos quaisquer do bairro da Lagoa Nova?
-Resposta: O comprimento médio do caminho mais curto entre todos os pares de nós na rede é de [inserir valor] metros. Isso indica que, em média, para se deslocar de um ponto a outro no bairro, é necessário percorrer essa distância.
-[Incluir visualização gráfica, como um histograma do comprimento do caminho mais curto]
+Quão coesa é a rede?
 
-Implementação
+O Diameter of Network nos informa qual é a maior distância entre quaisquer dois nós na rede. Um diâmetro menor sugere que a rede é mais coesa, enquanto um diâmetro maior pode indicar que a rede é dispersa.
 
-O código completo da análise está disponível no notebook [nome do notebook]. O notebook utiliza a biblioteca OSMnx para obter os dados da rede viária e realizar os cálculos das métricas.
+Quantas sub-redes independentes existem?
+
+O número de connected components revela quantas partes distintas existem na rede que não estão interconectadas. Isso pode indicar a fragmentação da rede ou a presença de grupos isolados.
+
+Implementação 👩🏽‍💻
+
+O código completo da análise está disponível no notebook [U1T4.ipynb]. O notebook utiliza a biblioteca OSMnx para obter os dados da rede viária e realizar os cálculos das métricas.
 
 Vídeo Explicativo
 
