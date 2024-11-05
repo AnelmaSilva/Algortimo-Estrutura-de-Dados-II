@@ -34,7 +34,7 @@ O número de connected components revela quantas partes distintas existem na red
 O código completo da análise está disponível no notebook [U1T4.ipynb]. O notebook utiliza a biblioteca OSMnx para obter os dados da rede viária e realizar os cálculos das métricas.
 
 ## Imagens da rede do bairro de Lagoa Nova:
-<img src="https://github.com/julianessantos/AED-II/blob/main/Unidade%201/U1T5/Imagens/CentralidadeDeGrau.png" alt="Centralidade de Grau" width="600" height="700"/>
+<img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U1T4/Lagoa_Nova.png" alt="Centralidade de Grau" width="600" height="700"/>
 ## Histograma da rede:
 <img src="https://github.com/julianessantos/AED-II/blob/main/Unidade%201/U1T5/Imagens/CentralidadeDeGrau.png" alt="Centralidade de Grau" width="600" height="700"/>
 #Vídeo Explicativo
