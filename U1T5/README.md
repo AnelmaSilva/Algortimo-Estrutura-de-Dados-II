@@ -51,14 +51,14 @@ A partir das métricas de centralidade e da análise multivariada, sugerir os ba
   
 ## Resultados 
 - - Grafo do bairro de Candelária
-  - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U1T4/Lagoa_Nova.png"  width="600" height="700"/>
+  - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U1T5/Candelaria.png"  width="600" height="700"/>
 - - Grafo de Candelária com ruas para bike
-  - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U1T4/Lagoa_Nova.png"  width="600" height="700"/>
+  - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U1T5/Candelaria_bike.png"  width="600" height="700"/>
 - - Grafo da métrica Degree e Closeness
-  - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U1T4/Lagoa_Nova.png"  width="600" height="700"/>
-  - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U1T4/Lagoa_Nova.png"  width="600" height="700"/>
+  - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U1T5/Degree_Candelaria.png"  width="600" height="700"/>
+  - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U1T5/Closeness_Candelria.png"  width="600" height="700"/>
   
 - - Análise Multivariada
-  - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U1T4/Lagoa_Nova.png"  width="600" height="700"/>
+  - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-DadosII/blob/main/U1T5/AnaliseMetricas_Candelaria.png"  width="800" height="900"/>
 ## Conclusão
 A análise de redes complexas aplicada à mobilidade urbana no entorno da UFRN permitirá uma avaliação mais detalhada da conectividade entre os bairros e ajudará na escolha dos locais mais estratégicos para a implementação de dock-stations de bicicletas. A utilização das métricas de centralidade, juntamente com a análise das distribuições de graus e a análise multivariada, proporcionará uma solução robusta e fundamentada para melhorar a mobilidade sustentável em Natal.
