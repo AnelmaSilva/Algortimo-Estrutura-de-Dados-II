@@ -42,9 +42,6 @@ O código completo da análise está disponível no notebook [U1T4.ipynb]. O not
 ### Histograma da rede:
 <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U1T4/Histograma_Lagoa_Nova.png" width="600" height="700"/>
 
-## Vídeo Explicativo
-
-- Um vídeo detalhado explicando o processo de análise e os resultados obtidos está disponível em [link do vídeo].
 
 ## Conclusão
 
