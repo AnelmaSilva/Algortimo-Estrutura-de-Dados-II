@@ -22,13 +22,14 @@ Este repositório contém um trabalho acadêmico focado em avaliar o desempenho 
 - Essa organização permite realizar operações como busca, inserção e remoção de forma eficiente, com complexidade média de O(log n), onde n é o número de nós na árvore. No entanto, no pior caso (quando a árvore está desbalanceada e se torna uma lista encadeada), a complexidade pode ser O(n).
     - Exemplo de uma BST:
         - INSERIR FIGURA DE EXEMPLO.
-
+          
+- O código de criação para uma BST : https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T2/BST.ipynb
 
 ## Explicação dos Algoritmos
 
-solver_closest: Este algoritmo busca o valor mais próximo de um número de entrada em uma árvore binária.
+- solver_closest: Este algoritmo busca o valor mais próximo de um número de entrada em uma árvore binária.
 
-solver_kth_largest: Este algoritmo encontra os três maiores valores em uma árvore binária.
+- solver_kth_largest: Este algoritmo encontra os três maiores valores em uma árvore binária.
 
 Cada algoritmo foi projetado para ser eficiente, e o desempenho foi medido utilizando a biblioteca time para capturar o tempo de execução.
 
