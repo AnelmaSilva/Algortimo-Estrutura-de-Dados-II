@@ -7,7 +7,7 @@
   
 # Desafio de Algoritmos com Árvores 🌳💻🤯
 
-Este repositório contém um trabalho acadêmico focado em avaliar o desempenho de dois algoritmos, `solver_closest` e `solver_kth_largest` considerando diversas entradas aleatórias e reproduzíveis. A ideia é variar o tamanho do vetor de entrada até um valor N grande, com o intuito de observar o impacto no tempo de execução, usando árvores para resolver dois desafios distintos:
+Este repositório contém um trabalho acadêmico focado em avaliar o desempenho de dois algoritmos, `solver_closest` e `solver_kth_largest` utlizando árvores de busca binária e considerando diversas entradas aleatórias e reproduzíveis. A ideia é variar o tamanho do vetor de entrada até um valor N grande, com o intuito de observar o impacto no tempo de execução, usando árvores para resolver dois desafios distintos:
 
 - Encontrar o valor mais próximo de um determinado número de entrada.
 - Detectar os três maiores valores em um conjunto de dados.
