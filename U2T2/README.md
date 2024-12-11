@@ -27,12 +27,14 @@ Este repositório contém um trabalho acadêmico focado em avaliar o desempenho 
 
 ## Explicação dos Algoritmos
 
-- solver_closest: Este algoritmo busca o valor mais próximo de um número de entrada em uma árvore binária.
+- Solver Closest: Este algoritmo busca o valor mais próximo de um número de entrada em uma árvore binária.
   - Para ilustrar o funcionamento do algoritmo, considere o seguinte exemplo: Suponha que um usuário deseje encontrar o valor mais próximo de 48 em uma árvore de busca binária (BST). O algoritmo inicia a busca na raiz, que, neste caso, é o número 40. Sabendo-se que, devido às propriedades da BST, todos os valores à esquerda de 40 são menores que ele, e como o valor desejado é maior que a raiz, o algoritmo segue para o lado direito da árvore, como ilustrado na figura abaixo.
+        - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T2/BST_RIGHT40.png"  width="400" height="400"/>
 
-  - No próximo nó, ele encontra o valor 60. Assim, o algoritmo calcula que a diferença entre 60 e o valor desejado (48) é de 12, e conclui que o número mais próximo até o momento ainda é 40. Como mencionado anteriormente, ao seguir para a direita, os valores encontrados serão maiores que 60, resultando em uma diferença ainda maior. Portanto, o algoritmo começa a percorrer o lado esquerdo, com o objetivo de encontrar uma diferença menor que 12. Seguindo esse raciocínio, o algoritmo percebe que o valor 50 possui a menor diferença em relação ao valor fornecido pelo usuário, sendo, assim, o número mais próximo dentro da árvore. 
+  - No próximo nó, ele encontra o valor 60. Assim, o algoritmo calcula que a diferença entre 60 e o valor desejado (48) é de 12, e conclui que o número mais próximo até o momento ainda é 40. Como mencionado anteriormente, ao seguir para a direita, os valores encontrados serão maiores que 60, resultando em uma diferença ainda maior. Portanto, o algoritmo começa a percorrer o lado esquerdo, com o objetivo de encontrar uma diferença menor que 12. Seguindo esse raciocínio, o algoritmo percebe que o valor 50 possui a menor diferença em relação ao valor fornecido pelo usuário, sendo, assim, o número mais próximo dentro da árvore.
+        - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T2/BST_CORRECTVALUE.png"  width="400" height="400"/>
 
-- solver_kth_largest: Este algoritmo encontra os três maiores valores em uma árvore binária.
+- Solver Kth Largest: Este algoritmo encontra os três maiores valores em uma árvore binária.
 
 Cada algoritmo foi projetado para ser eficiente, e o desempenho foi medido utilizando a biblioteca time para capturar o tempo de execução.
 
