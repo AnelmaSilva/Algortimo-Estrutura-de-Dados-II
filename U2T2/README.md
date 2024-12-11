@@ -21,13 +21,16 @@ Este repositório contém um trabalho acadêmico focado em avaliar o desempenho 
     
 - Essa organização permite realizar operações como busca, inserção e remoção de forma eficiente, com complexidade média de O(log n), onde n é o número de nós na árvore. No entanto, no pior caso (quando a árvore está desbalanceada e se torna uma lista encadeada), a complexidade pode ser O(n).
     - Exemplo de uma BST:
-        - INSERIR FIGURA DE EXEMPLO.
+        - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T2/BST.png"  width="400" height="400"/>
           
 - O código de criação para uma BST : https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T2/BST.ipynb
 
 ## Explicação dos Algoritmos
 
 - solver_closest: Este algoritmo busca o valor mais próximo de um número de entrada em uma árvore binária.
+  - Para ilustrar o funcionamento do algoritmo, considere o seguinte exemplo: Suponha que um usuário deseje encontrar o valor mais próximo de 48 em uma árvore de busca binária (BST). O algoritmo inicia a busca na raiz, que, neste caso, é o número 40. Sabendo-se que, devido às propriedades da BST, todos os valores à esquerda de 40 são menores que ele, e como o valor desejado é maior que a raiz, o algoritmo segue para o lado direito da árvore, como ilustrado na figura abaixo.
+
+  - No próximo nó, ele encontra o valor 60. Assim, o algoritmo calcula que a diferença entre 60 e o valor desejado (48) é de 12, e conclui que o número mais próximo até o momento ainda é 40. Como mencionado anteriormente, ao seguir para a direita, os valores encontrados serão maiores que 60, resultando em uma diferença ainda maior. Portanto, o algoritmo começa a percorrer o lado esquerdo, com o objetivo de encontrar uma diferença menor que 12. Seguindo esse raciocínio, o algoritmo percebe que o valor 50 possui a menor diferença em relação ao valor fornecido pelo usuário, sendo, assim, o número mais próximo dentro da árvore. 
 
 - solver_kth_largest: Este algoritmo encontra os três maiores valores em uma árvore binária.
 
