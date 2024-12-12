@@ -35,12 +35,21 @@ Este repositório contém um trabalho acadêmico focado em avaliar o desempenho 
         - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T2/BST_CORRECTVALUE.png"  width="400" height="400"/>
 
 - Solver Kth Largest: Este algoritmo encontra os três maiores valores em uma árvore binária.
+    - Neste algoritmo o funcionamento é diferente, o objetivo aqui é encontrar os três maiores valores em uma árvore, assim vamos usar um estrategia bastante utilizada em BST que é a busca Em Ordem.
+    - A busca em ordem (ou in-order search) em uma Árvore de Busca Binária (BST) é um processo que percorre a árvore de uma forma específica. A ordem para percorrer é a seguinte:
+      - Subárvore esquerda: Primeiro, explora-se a subárvore à esquerda.
+      - Nó atual: Depois, visita-se o nó atual.
+      - Subárvore direita: Finalmente, explora-se a subárvore à direita.
+        
+    - Realizando esse procedimento de busca encontramos os três maiores valores da BST. Mas na computação a busca por otimização é constante, pensando nisso, foi notado que é bem mais eficiente se realizamos está busca de forma reversa, pois a assim os k primeiros números já serão os maiores da BST 🙀💡.
 
 Cada algoritmo foi projetado para ser eficiente, e o desempenho foi medido utilizando a biblioteca time para capturar o tempo de execução.
 
 ## Resultados
 
 Após a execução, serão gerados gráficos que mostram a relação entre o tamanho do vetor e o tempo médio de execução, com intervalos de confiança como barras de erro.
+
+- Foram realizados alguns testes variando o valor de entrada N, assim como os steeps e o tamanho das execuções. Nas imagens seguintes é possível notar a diferenças entre os algoritmos de acordo com o tamanho da entrada. Quando iniciamos em um valor pequeno, praticamento não faz diferença, na escolha do algoritmo, o que não ocorre para valores bem alto, já que o (NOME DO ALGORITMO) bem um desempenho melhor que o (NOME DO ALGORITMO).
 
 ## Análise
 
