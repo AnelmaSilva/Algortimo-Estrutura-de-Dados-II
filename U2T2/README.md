@@ -29,10 +29,12 @@ Este repositório contém um trabalho acadêmico focado em avaliar o desempenho 
 
 - Solver Closest: Este algoritmo busca o valor mais próximo de um número de entrada em uma árvore binária.
   - Para ilustrar o funcionamento do algoritmo, considere o seguinte exemplo: Suponha que um usuário deseje encontrar o valor mais próximo de 48 em uma árvore de busca binária (BST). O algoritmo inicia a busca na raiz, que, neste caso, é o número 40. Sabendo-se que, devido às propriedades da BST, todos os valores à esquerda de 40 são menores que ele, e como o valor desejado é maior que a raiz, o algoritmo segue para o lado direito da árvore, como ilustrado na figura abaixo.
-        - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T2/BST_RIGHT40.png"  width="400" height="400"/>
+    
+   - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T2/BST_RIGHT40.png"  width="400" height="400"/>
 
   - No próximo nó, ele encontra o valor 60. Assim, o algoritmo calcula que a diferença entre 60 e o valor desejado (48) é de 12, e conclui que o número mais próximo até o momento ainda é 40. Como mencionado anteriormente, ao seguir para a direita, os valores encontrados serão maiores que 60, resultando em uma diferença ainda maior. Portanto, o algoritmo começa a percorrer o lado esquerdo, com o objetivo de encontrar uma diferença menor que 12. Seguindo esse raciocínio, o algoritmo percebe que o valor 50 possui a menor diferença em relação ao valor fornecido pelo usuário, sendo, assim, o número mais próximo dentro da árvore.
-        - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T2/BST_CORRECTVALUE.png"  width="400" height="400"/>
+    
+  - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T2/BST_CORRECTVALUE.png"  width="400" height="400"/>
 
 - Solver Kth Largest: Este algoritmo encontra os três maiores valores em uma árvore binária.
     - Neste algoritmo o funcionamento é diferente, o objetivo aqui é encontrar os três maiores valores em uma árvore, assim vamos usar um estrategia bastante utilizada em BST que é a busca Em Ordem.
@@ -52,12 +54,12 @@ Após a execução, serão gerados gráficos que mostram a relação entre o tam
 - Foram realizados alguns testes variando o valor de entrada N, assim como alteração nos valores de steps e o tamanho das execuções. Nas imagens seguintes é possível notar a diferenças entre os algoritmos de acordo com o tamanho da entrada. Quando iniciamos em um valor pequeno, praticamento não faz diferença, na escolha do algoritmo, o que não ocorre para valores bem alto, já que o Solver Closest tem um desempenho melhor que o Solver Kth Largest.
   
     - Desempenho dos algoritmos para um N = 1000:
-    - 
+    - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T2/DesempenhoN1000.png"  width="400" height="400"/>
     - Desempenho dos algoritmos para um N = 10000:
-    - 
+    - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T2/DesempenhoN10000.png"  width="400" height="400"/>
     - Desempenho dos algoritmos para um N = 100000:
-    - 
-    - Desempenho dos algoritmos para um N = 1000000:
+    - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T2/DesempenhoN100000.png"  width="400" height="400"/>
+      
 ## Análise 📝
 
 No vídeo (com duração de até 5 minutos), explicamos detalhadamente os resultados obtidos a partir dos gráficos e discutimos o desempenho dos algoritmos para diferentes tamanhos de entrada.
