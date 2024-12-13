@@ -47,10 +47,18 @@ Cada algoritmo foi projetado para ser eficiente, e o desempenho foi medido utili
 
 ## Resultados
 
-Após a execução, serão gerados gráficos que mostram a relação entre o tamanho do vetor e o tempo médio de execução, com intervalos de confiança como barras de erro.
+Após a execução, serão gerados gráficos que mostram a relação entre o tamanho do vetor e o tempo médio de execução, com intervalos de confiança como barras de erro (linhas verticas nas imagens a seguir).
 
-- Foram realizados alguns testes variando o valor de entrada N, assim como os steeps e o tamanho das execuções. Nas imagens seguintes é possível notar a diferenças entre os algoritmos de acordo com o tamanho da entrada. Quando iniciamos em um valor pequeno, praticamento não faz diferença, na escolha do algoritmo, o que não ocorre para valores bem alto, já que o (NOME DO ALGORITMO) bem um desempenho melhor que o (NOME DO ALGORITMO).
+- Foram realizados alguns testes variando o valor de entrada N, assim como alteração nos valores de steps e o tamanho das execuções. Nas imagens seguintes é possível notar a diferenças entre os algoritmos de acordo com o tamanho da entrada. Quando iniciamos em um valor pequeno, praticamento não faz diferença, na escolha do algoritmo, o que não ocorre para valores bem alto, já que o Solver Closest tem um desempenho melhor que o Solver Kth Largest.
+  
+    - Desempenho dos algoritmos para um N = 1000:
+    - 
+    - Desempenho dos algoritmos para um N = 10000:
+    - 
+    - Desempenho dos algoritmos para um N = 100000:
+    - 
+    - Desempenho dos algoritmos para um N = 1000000:
+## Análise 📝
 
-## Análise
-
-No vídeo anexo (com duração de até 5 minutos), explicamos detalhadamente os resultados obtidos a partir dos gráficos e discutimos o desempenho dos algoritmos para diferentes tamanhos de entrada.
+No vídeo (com duração de até 5 minutos), explicamos detalhadamente os resultados obtidos a partir dos gráficos e discutimos o desempenho dos algoritmos para diferentes tamanhos de entrada.
+   - Link do vídeo 📺: 
