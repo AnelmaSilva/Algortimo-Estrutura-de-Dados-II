@@ -63,4 +63,5 @@ Após a execução, serão gerados gráficos que mostram a relação entre o tam
 ## Análise 📝
 
 No vídeo (com duração de até 5 minutos), explicamos detalhadamente os resultados obtidos a partir dos gráficos e discutimos o desempenho dos algoritmos para diferentes tamanhos de entrada.
-   - Link do vídeo 📺: 
+
+   - Link do vídeo 📺: https://youtu.be/zJ8FQkd9znU
