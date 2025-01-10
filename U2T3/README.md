@@ -58,7 +58,7 @@
 - A imagem que representa a comparação entre os algoritmos é exibido como foi desenvolvida a lógica com a biblioteca time.
 - A figura com o resultados evidencia a diferença do NetworkX para com o Min Heap.
   - Comparação:
-    - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/Comparação_Dijsktra.png"  width="400" height="400"/>
+    - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/Comparação_Dijkstra.png"  width="400" height="400"/>
   - Resultado do desempenho:
     -  <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/Time_Algoritmos.png"  width="400" height="400"/>
 
@@ -69,4 +69,8 @@
 
 # PARTE 2 📄
 
-- Nesta parte dois
+- Na segunda parte deste trabalho, propõe-se a aplicação do algoritmo de Kruskal em um problema prático: a otimização de rotas turísticas. O objetivo é encontrar a árvore geradora mínima (AGM) que conecte os principais pontos turísticos de uma cidade, minimizando a distância total percorrida.
+
+Para tanto, foram selecionados como pontos de interesse (POIs) praias e parques da cidade do Natal. A partir do grafo da cidade, construiu-se um subgrafo contendo apenas os POIs e as arestas que os conectam. Em seguida, o algoritmo de Kruskal foi aplicado a este subgrafo para determinar a AGM.
+
+A figura X apresenta a AGM resultante, visualizando a rota turística otimizada que conecta os POIs selecionados. [Insira a figura aqui] A visualização permite identificar a melhor forma de conectar os pontos turísticos, minimizando a distância percorrida e otimizando o tempo de visitação.
