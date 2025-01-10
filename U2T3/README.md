@@ -36,9 +36,11 @@
   
 - A NetworkX e Min Heap foram definidas como mostradas nas imagens abaixo
   - NetworkX:
-      - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/NetworkX.png"  width="400" height="400"/>
+  - 
+    <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/NetworkX.png"  width="400" height="200"/>
   - Min Heap:
-      - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/Min_Heap.png"  width="400" height="400"/>
+  - 
+    <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/Min_Heap.png"  width="400" height="400"/>
 - Os pontos de interesse escolhidos foram:
     - Ponta Negra
     - Praça 7 de Setembro
@@ -51,8 +53,14 @@
     - Hotel Majestic
     - Centro de Turismo
 
-- Para avaliar o desempenho computacional das implementações do algoritmo de Dijkstra utilizando NetworkX e min-heap, foi introduzida uma biblioteca de medição de tempo. Os resultados obtidos para os 10 pares de pontos de interesse (POIs) indicam que a implementação do NetworkX apresentou um tempo de execução significativamente menor, como mostrado na figura abaixo.
-  -  <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/Time_Algoritmos.png"  width="400" height="400"/>
+- Para avaliar o desempenho computacional das implementações do algoritmo de Dijkstra utilizando NetworkX e min-heap, foi introduzida uma biblioteca de medição de tempo. Os resultados obtidos para os 10 pares de pontos de interesse (POIs) indicam que a implementação do NetworkX apresentou um tempo de execução significativamente menor.
+
+- A imagem que representa a comparação entre os algoritmos é exibido como foi desenvolvida a lógica com a biblioteca time.
+- A figura com o resultados evidencia a diferença do NetworkX para com o Min Heap.
+  - Comparação:
+    - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/Comparação_Dijsktra.png"  width="400" height="400"/>
+  - Resultado do desempenho:
+    -  <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/Time_Algoritmos.png"  width="400" height="400"/>
 
 - A próxima figura apresenta os grafos gerados com os caminhos mais curtos encontrados por ambos os algoritmos para um dos pares de POIs. É possível observar que, apesar de ambos os algoritmos encontrarem o caminho correto, a visualização pode auxiliar na comparação qualitativa das soluções, evidenciando, por exemplo, diferenças na quantidade de vértices visitados ou no comprimento total do caminho.
   -  <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/Grafo_Dijsktra.png"  width="400" height="400"/>
