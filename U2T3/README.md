@@ -30,10 +30,15 @@
 
 # PARTE 1 📄
 
-- Neste trabalho, busca-se aprofundar a análise de algoritmos de roteamento em grafos, com foco no algoritmo de Dijkstra. Utilizando a biblioteca OSMnx, serão selecionados 10 pares de pontos de interesse (PoI) na cidade do Natal-RN. Para cada par, o algoritmo de Dijkstra será aplicado, determinando o caminho mais curto entre os pontos.
+- De inicio, busca-se aprofundar a análise de algoritmos de roteamento em grafos, com foco no algoritmo de Dijkstra. Utilizando a biblioteca OSMnx, serão selecionados 10 pares de pontos de interesse (PoI) na cidade do Natal-RN. Para cada par, o algoritmo de Dijkstra será aplicado, determinando o caminho mais curto entre os pontos.
 
-- A implementação será realizada tanto utilizando a biblioteca NetworkX quanto através da estrutura de dados min-heap. As soluções obtidas serão comparadas visualmente no ambiente OSMnx, permitindo uma análise qualitativa dos resultados
-
+- A implementação será realizada tanto utilizando a biblioteca NetworkX quanto através da estrutura de dados min-heap. As soluções obtidas serão comparadas visualmente no ambiente OSMnx, permitindo uma análise qualitativa dos resultados.
+  
+- A NetworkX e Min Heap foram definidas como mostradas nas imagens abaixo
+  - NetworkX:
+      - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/NetworkX.png"  width="400" height="400"/>
+  - Min Heap:
+      - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/Min_Heap.png"  width="400" height="400"/>
 - Os pontos de interesse escolhidos foram:
     - Ponta Negra
     - Praça 7 de Setembro
@@ -47,8 +52,13 @@
     - Centro de Turismo
 
 - Para avaliar o desempenho computacional das implementações do algoritmo de Dijkstra utilizando NetworkX e min-heap, foi introduzida uma biblioteca de medição de tempo. Os resultados obtidos para os 10 pares de pontos de interesse (POIs) indicam que a implementação do NetworkX apresentou um tempo de execução significativamente menor, como mostrado na figura abaixo.
-  figura1
-- Essa superioridade do NetworkX pode ser atribuída à sua otimização para lidar com grafos de grande escala, como os encontrados em ambientes urbanos. Ao contrário da implementação manual utilizando min-heap, que apresenta maior overhead, o NetworkX é projetado especificamente para realizar operações em grafos de forma eficiente.
+  -  <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/Time_Algoritmos.png"  width="400" height="400"/>
 
 - A próxima figura apresenta os grafos gerados com os caminhos mais curtos encontrados por ambos os algoritmos para um dos pares de POIs. É possível observar que, apesar de ambos os algoritmos encontrarem o caminho correto, a visualização pode auxiliar na comparação qualitativa das soluções, evidenciando, por exemplo, diferenças na quantidade de vértices visitados ou no comprimento total do caminho.
-  figura2
+  -  <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/Grafo_Dijsktra.png"  width="400" height="400"/>
+  
+- Com base nos resultados obtidos, podemos concluir que a biblioteca NetworkX é uma ferramenta muito mais eficiente para encontrar o caminho mais curto em grafos de grande porte, como o grafo da cidade de Natal, quando comparada com uma implementação manual utilizando min-heap. As otimizações presentes no NetworkX permitem que ele execute o algoritmo de Dijkstra de forma significativamente mais rápida, tornando-o uma escolha ideal para aplicações que exigem alta performance em problemas de roteamento.
+
+# PARTE 2 📄
+
+- Nesta parte dois
