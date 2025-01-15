@@ -67,7 +67,7 @@
     
 - Com base nos resultados obtidos, podemos concluir que a biblioteca NetworkX é uma ferramenta muito mais eficiente para encontrar o caminho mais curto em grafos de grande porte, como o grafo da cidade de Natal, quando comparada com uma implementação manual utilizando min-heap. As otimizações presentes no NetworkX permitem que ele execute o algoritmo de Dijkstra de forma significativamente mais rápida, tornando-o uma escolha ideal para aplicações que exigem alta performance em problemas de roteamento.
 
-- Neste link você pode encontrar o código completo desenvolvido para a tarefa 🔗👩🏾‍💻 : 
+- Neste link você pode encontrar o código completo desenvolvido para a tarefa 🔗👩🏾‍💻 : https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/Dijkstra.ipynb
 
 # PARTE 2 📄
 
@@ -84,4 +84,4 @@
 
 - Em outras palavras, a MST é uma ferramenta poderosa para otimizar a experiência turística em Natal e para auxiliar no planejamento urbano da cidade.
 
-- Neste link você pode encontrar o código completo desenvolvido para a tarefa 🔗👩🏾‍💻 :
+- Neste link você pode encontrar o código completo desenvolvido para a tarefa 🔗👩🏾‍💻 : https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/Kruskal.ipynb
