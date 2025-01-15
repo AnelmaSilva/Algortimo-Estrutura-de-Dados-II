@@ -76,7 +76,7 @@
 - Para tanto, foram selecionados como pontos de interesse (POIs) praias e parques da cidade do Natal. A partir do grafo da cidade, construiu-se um subgrafo contendo apenas os POIs e as arestas que os conectam. Em seguida, o algoritmo de Kruskal foi aplicado a este subgrafo para determinar a MST.
 
 - A figura a seguir mostra o trecho de código responsável por encontrar os POIs:
-   -  <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/Trecho_POIs_Kruskal.png"  width="400" height="400"/>
+   -  <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/Trecho_POIs_Kruskal.PNG"  width="400" height="400"/>
 - A figura abaixo apresenta a MST resultante, visualizando a rota turística otimizada que conecta os POIs selecionados. A visualização permite identificar a melhor forma de conectar os pontos turísticos, minimizando a distância percorrida e otimizando o tempo de visitação.
   -  <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/Kruskal_Resultado.png"  width="400" height="400"/>
 
