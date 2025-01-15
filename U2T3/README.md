@@ -36,11 +36,10 @@
   
 - A NetworkX e Min Heap foram definidas como mostradas nas imagens abaixo
   - NetworkX:
-  - 
-    <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/NetworkX.png"  width="400" height="200"/>
+    - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/NetworkX.png"  width="400" height="200"/>
   - Min Heap:
-  - 
-    <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/Min_Heap.png"  width="400" height="400"/>
+    - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/Min_Heap.png"  width="400" height="400"/>
+    
 - Os pontos de interesse escolhidos foram:
     - Ponta Negra
     - Praça 7 de Setembro
@@ -55,22 +54,34 @@
 
 - Para avaliar o desempenho computacional das implementações do algoritmo de Dijkstra utilizando NetworkX e min-heap, foi introduzida uma biblioteca de medição de tempo. Os resultados obtidos para os 10 pares de pontos de interesse (POIs) indicam que a implementação do NetworkX apresentou um tempo de execução significativamente menor.
 
-- A imagem que representa a comparação entre os algoritmos é exibido como foi desenvolvida a lógica com a biblioteca time.
+- A imagem que representa a comparação entre os algoritmos, mostra como foi desenvolvida a lógica com a biblioteca time.
 - A figura com o resultados evidencia a diferença do NetworkX para com o Min Heap.
   - Comparação:
     - <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/Comparação_Dijkstra.png"  width="400" height="400"/>
   - Resultado do desempenho:
     -  <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/Time_Algoritmos.png"  width="400" height="400"/>
 
-- A próxima figura apresenta os grafos gerados com os caminhos mais curtos encontrados por ambos os algoritmos para um dos pares de POIs. É possível observar que, apesar de ambos os algoritmos encontrarem o caminho correto, a visualização pode auxiliar na comparação qualitativa das soluções, evidenciando, por exemplo, diferenças na quantidade de vértices visitados ou no comprimento total do caminho.
+- A próxima figura apresenta os grafos gerados com os caminhos mais curtos encontrados por ambos os algoritmos para um dos pares de POIs. É possível observar que, apesar de ambos os algoritmos encontrarem o caminho correto, a visualização pode auxiliar na comparação qualitativa das soluções, evidenciando, por exemplo, diferenças na quantidade de vértices visitados ou no comprimento total do caminho. Para observar às 10 imagens dos POIs por completo basta acessar o link que direciona para a pasta de imagens logo abaixo da figura.
   -  <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/Grafo_Dijsktra.png"  width="400" height="400"/>
-  
+  - Link da pasta com todas as imagens 📂:
+    
 - Com base nos resultados obtidos, podemos concluir que a biblioteca NetworkX é uma ferramenta muito mais eficiente para encontrar o caminho mais curto em grafos de grande porte, como o grafo da cidade de Natal, quando comparada com uma implementação manual utilizando min-heap. As otimizações presentes no NetworkX permitem que ele execute o algoritmo de Dijkstra de forma significativamente mais rápida, tornando-o uma escolha ideal para aplicações que exigem alta performance em problemas de roteamento.
+
+- Neste link você pode encontrar o código completo desenvolvido para a tarefa 🔗👩🏾‍💻 : 
 
 # PARTE 2 📄
 
-- Na segunda parte deste trabalho, propõe-se a aplicação do algoritmo de Kruskal em um problema prático: a otimização de rotas turísticas. O objetivo é encontrar a árvore geradora mínima (AGM) que conecte os principais pontos turísticos de uma cidade, minimizando a distância total percorrida.
+- Na segunda parte deste trabalho, propõe-se a aplicação do algoritmo de Kruskal em um problema prático: Otimização de rotas turísticas. O objetivo é encontrar a árvore geradora mínima (MST) que conecte os principais pontos turísticos de uma cidade, minimizando a distância total percorrida.
 
-Para tanto, foram selecionados como pontos de interesse (POIs) praias e parques da cidade do Natal. A partir do grafo da cidade, construiu-se um subgrafo contendo apenas os POIs e as arestas que os conectam. Em seguida, o algoritmo de Kruskal foi aplicado a este subgrafo para determinar a AGM.
+- Para tanto, foram selecionados como pontos de interesse (POIs) praias e parques da cidade do Natal. A partir do grafo da cidade, construiu-se um subgrafo contendo apenas os POIs e as arestas que os conectam. Em seguida, o algoritmo de Kruskal foi aplicado a este subgrafo para determinar a MST.
 
-A figura X apresenta a AGM resultante, visualizando a rota turística otimizada que conecta os POIs selecionados. [Insira a figura aqui] A visualização permite identificar a melhor forma de conectar os pontos turísticos, minimizando a distância percorrida e otimizando o tempo de visitação.
+- A figura a seguir mostra o trecho de código responsável por encontrar os POIs:
+   -  <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/Trecho_POIs_Kruskal.png"  width="400" height="400"/>
+- A figura abaixo apresenta a MST resultante, visualizando a rota turística otimizada que conecta os POIs selecionados. A visualização permite identificar a melhor forma de conectar os pontos turísticos, minimizando a distância percorrida e otimizando o tempo de visitação.
+  -  <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/Kruskal_Resultado.png"  width="400" height="400"/>
+
+- A MST encontrada pelo algoritmo de Kruskal para os pontos turísticos de Natal representa a rota mais curta e eficiente para visitar todos os locais selecionados, considerando a infraestrutura viária da cidade. Este tipo de resposta utlizando o algoritmo pode ser usado para planejamento de viagens otimizados, realização de uma análise da infraestrutura turística em outras.
+
+- Em outras palavras, a MST é uma ferramenta poderosa para otimizar a experiência turística em Natal e para auxiliar no planejamento urbano da cidade.
+
+- Neste link você pode encontrar o código completo desenvolvido para a tarefa 🔗👩🏾‍💻 :
