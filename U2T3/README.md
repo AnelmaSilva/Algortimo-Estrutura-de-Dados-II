@@ -63,7 +63,7 @@
 
 - A próxima figura apresenta os grafos gerados com os caminhos mais curtos encontrados por ambos os algoritmos para um dos pares de POIs. É possível observar que, apesar de ambos os algoritmos encontrarem o caminho correto, a visualização pode auxiliar na comparação qualitativa das soluções, evidenciando, por exemplo, diferenças na quantidade de vértices visitados ou no comprimento total do caminho. Para observar às 10 imagens dos POIs por completo basta acessar o link que direciona para a pasta de imagens logo abaixo da figura.
   -  <img src="https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/Grafo_Dijsktra.png"  width="400" height="400"/>
-  - Link da pasta com todas as imagens 📂:
+  - Link da pasta com todas as imagens 📂: https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/tree/main/U2T3/Imagens_Dijkstra
     
 - Com base nos resultados obtidos, podemos concluir que a biblioteca NetworkX é uma ferramenta muito mais eficiente para encontrar o caminho mais curto em grafos de grande porte, como o grafo da cidade de Natal, quando comparada com uma implementação manual utilizando min-heap. As otimizações presentes no NetworkX permitem que ele execute o algoritmo de Dijkstra de forma significativamente mais rápida, tornando-o uma escolha ideal para aplicações que exigem alta performance em problemas de roteamento.
 
