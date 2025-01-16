@@ -85,3 +85,5 @@
 - Em outras palavras, a MST é uma ferramenta poderosa para otimizar a experiência turística em Natal e para auxiliar no planejamento urbano da cidade.
 
 - Neste link você pode encontrar o código completo desenvolvido para a tarefa 🔗👩🏾‍💻 : https://github.com/AnelmaSilva/Algortimo-Estrutura-de-Dados-II/blob/main/U2T3/Kruskal.ipynb
+- 
+- Neste link você pode encontrar o vídeo desenvolvido para a tarefa 🔗👩🏾‍💻 : https://youtu.be/WCXYUXH1-qA
