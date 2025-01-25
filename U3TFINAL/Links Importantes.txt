@@ -1,0 +1,7 @@
+Grafo do livro Uma Segunda Chance: https://ouestware.gitlab.io/retina/beta/#/graph/?url=https://gist.githubusercontent.com/AnelmaSilva/0970a8298d8a8f73d9ded6306a7a45e1/raw/432f5142e8ad6ef128984dde3840571883c96790/network-331a20fb-fd4.gexf
+
+Grafo do livro Verity: https://ouestware.gitlab.io/retina/beta/#/graph/?url=https://gist.githubusercontent.com/AnelmaSilva/ca65c45ac27c8884c6bff95ab5d8e7d3/raw/1f82a8e1cec500069e8c95c98f3d071faadcc24a/network-000df5a0-f87.gexf
+
+Link do Medium: https://medium.com/@anelma.costa.100/trabalho-final-da-disciplina-de-algoritmos-e-estruturas-de-dados-ii-a621e431a117
+
+Link do Podcast: https://drive.google.com/file/d/1bxtZ_jaGezpP4NAW3M9JyjBYT2NMQYGV/view?usp=sharing 
