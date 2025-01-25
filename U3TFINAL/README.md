@@ -12,5 +12,5 @@ Para o desenvolvimento desta atividade, será utilizado também o Processamento 
 
 A combinação dessas três ferramentas constitui o objetivo deste trabalho, que visa realizar uma análise de redes com base em Processamento de Linguagem Natural e ferramentas de grafos. O propósito é explorar relações linguísticas e criar uma solução completa, que vá desde a análise de texto até a implementação de um grafo interativo por meio da ferramenta Graphi. Nesse contexto será realizada a avaliação de dois livros da autora Collen Hoover, a fim de avaliar a relação que cada personagem tem com a história citada.
 
-No link a seguir encontra-se um posto no site Medium com a descrição detalhada da tarefa: 
+No link a seguir encontra-se um post no site Medium com a descrição detalhada da tarefa: https://medium.com/@anelma.costa.100/trabalho-final-da-disciplina-de-algoritmos-e-estruturas-de-dados-ii-a621e431a117
 
