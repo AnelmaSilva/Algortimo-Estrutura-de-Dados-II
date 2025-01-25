@@ -19,7 +19,7 @@
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "Id",
+    "groupSelectorAttribute": "color",
     "hoverBehavior": "dim"
   },
   "informationPanel": {
