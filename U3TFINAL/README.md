@@ -14,3 +14,5 @@ A combinação dessas três ferramentas constitui o objetivo deste trabalho, que
 
 No link a seguir encontra-se um post no site Medium com a descrição detalhada da tarefa: https://medium.com/@anelma.costa.100/trabalho-final-da-disciplina-de-algoritmos-e-estruturas-de-dados-ii-a621e431a117
 
+Está disponível também um podcast descrevendo os principais conceitos abordados. Acesse através do link: https://drive.google.com/file/d/1bxtZ_jaGezpP4NAW3M9JyjBYT2NMQYGV/view?usp=sharing
+
