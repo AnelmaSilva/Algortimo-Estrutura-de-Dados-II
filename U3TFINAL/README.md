@@ -1,6 +1,7 @@
 #Trabalho final da disciplina de Algoritmo e Estrutura de Dados 2
 
 Aluna: Anelma Silva da Costa
+
 Curso: Engenharia de Computação
 
 O foco da disciplina de Estruturas de Dados são os grafos. Grafos são estruturas matemáticas utilizadas para representar relacionamentos ou conexões entre objetos. Eles consistem em um conjunto de pontos, chamados de vértices (ou nós), conectados por linhas, denominadas arestas (ou arcos). Um exemplo simples de grafo seria um mapa de cidades, onde as cidades representam os vértices e as estradas entre elas, as arestas.
